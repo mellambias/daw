@@ -1,0 +1,18 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "Introduccion a Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Introduccion",
+    "node"
+  ],
+  "author": "Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}

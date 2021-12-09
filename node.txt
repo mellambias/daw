@@ -1,0 +1,44 @@
+Node.js sin frameworks
+https://nodejs.org/dist/latest-v17.x/docs/api/
+
+- Es un runtime, no es un framework ni una libreria
+- interprete de JS sobre el motor V8  de Crome escrito en C++
+- Permite la ejecución de js sin necesidad de un navegador.
+
+- Conocimiento de :
+    - JSON
+    - Promise
+    - HTTP
+
+- Beneficios de Node.js
+    - Es muy rápido
+    - Eficiente
+    - Escalable
+    - Basado en EVENTOS, no existen bloqueos de I/O
+    - Un único hilo de ejecución asíncrono. EventLoop
+    - Mismo lenguaje en el cliente y servidor (Javascript)
+    - Modulos CommondJS (modulos ES5 experimental).
+    - Soporta muchas conexiones simultaneas.
+
+- Aplicaciones de node.JS
+    - Rest APIs
+    - Servicios de tiempo real.
+    - CRUD ( Create, Read, Update, Delete )
+    - Herramientas y utilidades.
+    - Cualquier app que no requiera un uso intensivo de CPU
+
+- Uso de módulos
+    - Core 
+        - path
+        - fs 
+        - http 
+        - https (TLS/SSL)
+        - url
+        - events 
+        - etc 
+        - console
+
+    - Módulos de terceros 
+        - repositorio npm o Yarn (Facebook)
+    - Módulos personalizados
+        - sintaxis CommondJS require en lugar de import.
